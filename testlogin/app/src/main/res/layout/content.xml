@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<!--    <android.support.v7.widget.Toolbar-->
+<!--        android:id="@+id/my_toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        style="@style/HeaderBar"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"-->
+<!--        android:elevation="4dp"-->
+<!--        />-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/black"
+        android:background="@android:color/holo_blue_bright">
+    </androidx.appcompat.widget.Toolbar>
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:text="MindSpace is your personal guide to health and happiness. It can help you grow knowledge about primary mental disorders.When you need some stress relief or lessons on improving your mental health, talk to our experts by clicking Contact Us below. MindSpace can help you to sit back and relax! " />
+
+    <ListView
+
+        android:paddingTop="20dp"
+        android:padding="10dp"
+        android:id="@+id/simpleListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/material_blue_grey_800"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Contact Us"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Log Out"
+        android:textAllCaps="false" />
+</LinearLayout>
+

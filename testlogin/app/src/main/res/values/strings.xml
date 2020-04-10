@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">test-login</string>
+    <string name="disclaimer">
+    Application Disclaimer!
+    This application is not a substitute medical advice. Users of the application
+    should consult their health care professional before making any health,medical or other decisions based upon the data contained here in.
+    </string>
+</resources>
+
