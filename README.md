@@ -6,8 +6,6 @@ MindSpace is a simple personal guide to mental health and happiness. It can help
 #### Try out MindSpace 
 [APK](https://github.com/UmaGunturi/MindSpace/blob/master/mindspace.apk)
 
-Demo video link :
-
 ## Features of MindSpace
 - Authentication of users
 - Chat with psychiatrist
