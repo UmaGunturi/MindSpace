@@ -4,7 +4,7 @@ An Android App for improving mental health and well being.This application was m
 MindSpace is a simple personal guide to mental health and happiness. It can help you to grow knowledge about primary mental health disorders.It offers features that helps you releive stress and provide neccessary information or personal assistance from an expert psychiatrist on improving your health conditions gradually. 
 
 #### Try out MindSpace 
-APK link : 
+[APK](https://github.com/UmaGunturi/MindSpace/blob/master/mindspace.apk)
 
 Demo video link :
 
